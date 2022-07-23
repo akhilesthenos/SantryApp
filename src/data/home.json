@@ -1,0 +1,164 @@
+[
+    {
+        "slider": [
+            {
+                "id": 1,
+                "image": "./images/service/media.png",
+                "title": "Nurturing Entrepreneurship With"
+            }
+        ]
+    },
+    {
+        "brand": [
+            {
+                "id": 1,
+                "image": "./images/brand-logo/11.png"
+            },
+            {
+                "id": 2,
+                "image": "./images/brand-logo/44.png"
+            },
+            {
+                "id": 3,
+                "image": "./images/brand-logo/33.png"
+            },
+            {
+                "id": 4,
+                "image": "./images/brand-logo/22.png"
+            },
+            {
+                "id": 5,
+                "image": "./images/brand-logo/55.png"
+            },
+            {
+                "id": 6,
+                "image": "./images/brand-logo/66.png"
+            },
+            {
+                "id": 7,
+                "image": "./images/brand-logo/77.png"
+            }
+        ]
+    },
+    {
+        "iconBox": [
+            {
+                "id": 1,
+                "className": "grid-item mb-7",
+                "icon": "./images/feature/logo/11.png",
+                "title": "Any where-Any time",
+                "excerpt": "Pleasure rationally encounter are extremely painful anyone who loves or pursues"
+            },
+            {
+                "id": 2,
+                "className": "grid-item card-mt-75 mb-7",
+                "icon": "./images/feature/logo/22.png",
+                "title": "Super Easy",
+                "excerpt": "Pleasure rationally encounter are extremely painful anyone who loves or pursues"
+            },
+            {
+                "id": 1,
+                "className": "grid-item mb-7",
+                "icon": "./images/feature/logo/33.png",
+                "title": "All thing finance",
+                "excerpt": "Pleasure rationally encounter are extremely painful anyone who loves or pursues"
+            }
+        ]
+    },
+    {
+        "testimonial": [
+            {
+                "id": 1,
+                "excerpt": "Pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires maintain",
+                "authorThumb": "./images/testimonial/avater.png",
+                "name": "David Loyed",
+                "designation": "CEO, Omex"
+            },
+            {
+                "id": 2,
+                "excerpt": "Pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires maintain",
+                "authorThumb": "./images/testimonial/2.png",
+                "name": "John Loyed",
+                "designation": "CEO, Omex"
+            },
+            {
+                "id": 3,
+                "excerpt": "Pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires maintain",
+                "authorThumb": "./images/testimonial/avater.png",
+                "name": "David Loyed",
+                "designation": "CEO, Omex"
+            }
+        ]
+    },
+    {
+        "funfact": [
+            {
+                "id": 1,
+                "number": 1200,
+                "title": "Loan processed"
+            },
+            {
+                "id": 2,
+                "number": 2354,
+                "title": "Insurance issued"
+            },
+            {
+                "id": 3,
+                "number": 3299,
+                "title": "Investments done"
+            },
+            {
+                "id": 4,
+                "number": 101,
+                "title": "Payments transacted"
+            }
+        ]
+    },
+    {
+        "team": [
+            {
+                "id": 1,
+                "thumb": "./images/team/rounded-img1.png",
+                "name": "Cristopher Williams",
+                "designation": "Head of Idea"
+            },
+            {
+                "id": 2,
+                "thumb": "./images/team/rounded-img2.png",
+                "name": "Rebeca Smith",
+                "designation": "Head of HR"
+            },
+            {
+                "id": 3,
+                "thumb": "./images/team/rounded-img3.png",
+                "name": "Ricardo Powel",
+                "designation": "Head of Development"
+            }
+        ]
+    },
+    {
+        "products": [
+            {
+                "id": 1,
+                "excerpt": "At VIAN, we research, identify and make available products and categories that suit the everyday financial needs of the Indian family. Our mission is to provide the best value possible for our customers, so that every rupee they allocate to us gives them more value for money than they would get anywhere else",
+                "authorThumb": "./images/gif/homeloan.gif",
+                "name": "David Loyed",
+                "designation": "CEO, Omex"
+            },
+            {
+                "id": 2,
+                "excerpt": "Pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires maintain",
+                "authorThumb": "./images/gif/demo.gif",
+                "name": "John Loyed",
+                "designation": "CEO, Omex"
+            },
+            {
+                "id": 3,
+                "excerpt": "At VIAN, we research, identify and make available products and categories that suit the everyday financial needs of the Indian family. Our mission is to provide the best value possible for our customers, so that every rupee they allocate to us gives them more value for money than they would get anywhere else",
+                "authorThumb": "./images/gif/money.gif",
+                "name": "David Loyed",
+                "designation": "CEO, Omex"
+            }
+        ]
+    }
+]

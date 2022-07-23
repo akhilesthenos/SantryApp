@@ -1,0 +1,450 @@
+.hero-slide-content {
+    @include max-screen(768, 1199) {
+        padding-top: 50px;
+    }
+}
+#angle-bg {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1000;
+}
+
+.hero-slider {
+    position: relative;
+    padding-top: 160px;
+    overflow: hidden;
+    @include min-screen(1200) {
+        display: flex;
+        align-items: center;
+        // height: 600px;
+        height: 100vh;
+    }
+    @include min-screen(1500) {
+        display: flex;
+        align-items: center;
+        height: 800px;
+    }
+
+    .title {
+        animation-name: fadeInUp;
+        animation-delay: 0.9s;
+    }
+
+    .delay1 {
+        animation-name: fadeInUp;
+        animation-delay: 1.5s;
+    }
+    .delay2 {
+        animation-name: fadeInUp;
+        animation-delay: 2s;
+    }
+    .hero-img {
+        img {
+            animation-name: fadeInLeft;
+            animation-delay: 2.5s;
+        }
+    }
+}
+.buti {
+    // color: #7ca599 !important;
+    color: #fff !important;
+    font-size: 60px !important;
+    @include min-screen(1500) {
+        font-size: 60px !important;
+    }
+    @include max-screen(992, 1199) {
+        font-size: 45px !important;
+    }
+    @include max-screen(767) {
+        font-size: 35px !important;
+        line-height: 1.4;
+    }
+    @include max-screen(480) {
+        font-size: 30px !important;
+    }
+    @include max-screen(576, 767) {
+        font-size: 45px !important;
+    }
+}
+
+.custom-font {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fff;
+    // width: 86%;
+    transition: color 0.1s;
+}
+// .custom-font:hover {
+//     color: #44ac94;
+// }
+.es-sty-cust {
+    cursor: default;
+    @include min-screen(1920) {
+        font-size: 2rem;
+    }
+    @include min-screen(1500) {
+        font-size: 53px;
+    }
+    @include max-screen(992, 1199) {
+        font-size: 38px;
+    }
+    @include max-screen(767) {
+        font-size: 28px;
+        line-height: 1.4;
+    }
+    @include max-screen(480) {
+        font-size: 1rem;
+    }
+    @include max-screen(576, 767) {
+        font-size: 38px;
+    }
+}
+
+.border-line {
+    background: #f0fff4;
+    height: 32px;
+    margin-top: 53px;
+    border-radius: 27px;
+}
+
+.hero-slide-content {
+    .title {
+        font-weight: 700;
+        font-size: 53px;
+        cursor: default;
+        @include min-screen(1500) {
+            font-size: 53px;
+        }
+        @include max-screen(992, 1199) {
+            font-size: 38px;
+        }
+        @include max-screen(767) {
+            font-size: 28px;
+            line-height: 1.4;
+        }
+        @include max-screen(480) {
+            font-size: 23px;
+        }
+        @include max-screen(576, 767) {
+            font-size: 38px;
+        }
+        line-height: 1.2;
+        margin-bottom: 3.75rem;
+    }
+}
+.hero-img {
+    @include min-screen(1200) {
+        position: absolute;
+        bottom: 4rem;
+        right: 7rem;
+    }
+    max-width: 904px;
+    @include max-screen(1200, 1499) {
+        max-width: 700px;
+    }
+
+    @include max-screen(1500, 1800) {
+        max-width: 48%;
+    }
+}
+
+.negative-margin {
+    @include min-screen(1200) {
+        margin-top: 100px;
+    }
+}
+
+.hero-shape1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    @include min-screen(1500) {
+        max-width: 1007px;
+    }
+    @include min-screen(1200) {
+        max-width: 55%;
+    }
+}
+.hero-shape2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    max-width: 878px;
+
+    @include max-screen(1500, 1800) {
+        max-width: 735px;
+    }
+
+    @include max-screen(1499) {
+        max-width: 735px;
+    }
+
+    @include max-screen(1199) {
+        display: none;
+    }
+
+    @include max-screen(1199) {
+        top: auto;
+        bottom: 0;
+    }
+}
+
+.center-head {
+    font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    height: 100px;
+    width: 100%;
+    padding: 100px;
+}
+.hr-style {
+    width: 29px;
+    height: 4px !important;
+    background-color: #00c3c0;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    margin-bottom: 30px;
+}
+.custom-p {
+    padding: 0px 108px;
+}
+
+.MasteryContainer {
+    // width: 75vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+.MasteryBodySpan {
+    color: #84a98e;
+    font-size: 19px;
+    border: 1px solid #84a98e;
+    padding: 8px 21px;
+    border-radius: 50px;
+    margin: 7px 9px;
+    display: inline-block;
+    cursor: pointer;
+}
+.MasteryBodySpan:focus,
+.MasteryBodySpan:hover {
+    color: #263238;
+    font-size: 19px;
+    border: 1px solid #263238;
+    padding: 8px 22px;
+    border-radius: 50px;
+    margin: 7px 9px;
+    /* transition: 20s all-ease-out; */
+    transition: all 0.3s ease 0s;
+    display: inline-block;
+}
+.hover-color:hover {
+    color: #5c8b70 !important;
+}
+// vian tech scss
+// .vt-background {
+//     // width: 100%;
+//     // height: 100%;
+// }
+.tech-container {
+    margin: 46px;
+    width: auto;
+    @include min-screen(1500) {
+        font-size: 60px !important;
+    }
+    @include max-screen(992, 1199) {
+        font-size: 45px !important;
+        margin: 0px !important;
+    }
+    @include max-screen(820) {
+        font-size: 35px !important;
+        line-height: 1.4;
+        margin: 0px !important;
+    }
+    @include max-screen(767) {
+        font-size: 35px !important;
+        line-height: 1.4;
+        margin: 0px !important;
+    }
+    @include max-screen(480) {
+        font-size: 30px !important;
+        margin: 0px !important;
+    }
+    @include max-screen(576, 767) {
+        font-size: 45px !important;
+    }
+}
+.tech-head-title {
+    width: 980px;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 1.06;
+    letter-spacing: -0.02em;
+    color: #306956;
+    @include min-screen(1920) {
+        font-size: 2rem;
+    }
+    @include min-screen(1500) {
+        font-size: 53px;
+    }
+    @include max-screen(992, 1199) {
+        font-size: 38px;
+    }
+    @include max-screen(820) {
+        font-size: 28px;
+    }
+    @include max-screen(767) {
+        font-size: 28px;
+        line-height: 1.4;
+    }
+    @include max-screen(480) {
+        font-size: 1rem;
+    }
+    @include max-screen(576, 767) {
+        font-size: 38px;
+    }
+}
+.tech-head-title-tw {
+    font-size: 90px;
+    color: #7ca599;
+    font-weight: 700;
+}
+.vt-buti {
+    color: #7ca599;
+    font-size: 60px;
+    font-weight: 700;
+    @include min-screen(1920) {
+        font-size: 2rem;
+    }
+    @include min-screen(1500) {
+        font-size: 53px;
+    }
+    @include max-screen(992, 1199) {
+        font-size: 38px;
+    }
+    @include max-screen(820) {
+        font-size: 27px;
+    }
+    @include max-screen(767) {
+    }
+    @include max-screen(480) {
+        font-size: 1rem;
+    }
+    @include max-screen(576, 767) {
+    }
+}
+
+.products-head {
+    font-weight: 700;
+    justify-content: center;
+    display: flex;
+    color: #000;
+    padding-top: 33px;
+    margin: 46px 0px;
+}
+.products-background {
+    background: #8fbc8fe6;
+    height: 100vh;
+}
+.products-one {
+    color: #f4f8f4;
+    font-weight: 700;
+    text-align: right;
+}
+.product-carousel {
+    .swiper-button-prev,
+    .swiper-button-next {
+        top: auto;
+        margin-top: 0;
+        bottom: -80px;
+        color: #fff;
+        text-transform: capitalize;
+        text-decoration: none;
+    }
+    .swiper-button-prev {
+        width: auto;
+        left: 100px;
+    }
+
+    .swiper-button-next {
+        width: auto;
+        right: 120px;
+    }
+}
+.product-carousel {
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        display: none;
+    }
+}
+.productCarouselBtn {
+    // color: #fff;
+    // font-size: 19px;
+    // border: 1px solid #fff;
+    // padding: 8px 21px;
+    // border-radius: 50px;
+    // margin: 7px 9px;
+    // display: inline-block;
+    // cursor: pointer;
+    color: #fff;
+    font-size: 21px;
+    border: 5px solid #fff;
+    padding: 1px 15px;
+    border-radius: 50px;
+    margin: 7px 9px;
+    display: inline-block;
+    cursor: pointer;
+}
+.productCarouselBtn:focus,
+.productCarouselBtn:hover {
+    color: #306956;
+    font-size: 21px;
+    border: 5px solid #ffffff;
+    padding: 1px 15px;
+    background: white;
+    border-radius: 50px;
+    margin: 7px 9px;
+    /* transition: 20s all-ease-out; */
+    transition: all 0.3s ease 0s;
+    display: inline-block;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+// bargraph scss
+
+.order-status{
+    display: flex;
+    flex-wrap: wrap;
+    color: red;
+    margin-top: 120px;
+    margin-bottom: 90px;
+}
+.hero-shapeTech1{
+    position: absolute;
+    top: 184px;
+    left: 91px;
+    width: 27%;
+    transform: rotate(45deg);
+}
+.hero-shapeTech2{
+    position: absolute;
+    top: -23px;
+    left: 448px;
+}
+.products-head-space{
+    height: 122px;
+}
