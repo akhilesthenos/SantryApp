@@ -26,6 +26,10 @@ const HomePage = () => {
                 <div className="wrapper">
                     <Header />
                     {/* <IntroContainer /> */}
+                    <button onClick={methodDoesNotExist}>
+                        Break the world
+                    </button>
+                    ;
                     <IntroContainerAngle />
                     {/* <Roadmap /> */}
                     {/* <RoadmapContainer /> */}
