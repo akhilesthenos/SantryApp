@@ -31,8 +31,6 @@ const HomePage = () => {
                     </button>
                     ;
                     <IntroContainerAngle />
-                    {/* <Roadmap /> */}
-                    {/* <RoadmapContainer /> */}
                     <BrandContainer />
                     <IconBoxContainer classOption="section-pb" />
                     <HomeAboutContainer />
